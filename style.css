@@ -7,6 +7,10 @@ section {
   margin: 10%;
 }
 
+#start {
+  cursor: pointer;
+}
+
 .rotate {
   transform-origin: 400px;
   animation-name: rotatePlanet;

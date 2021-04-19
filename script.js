@@ -1,4 +1,6 @@
-document.querySelector("#sun").addEventListener("click", () => {
+const start = document.querySelector("#start");
+
+start.addEventListener("click", () => {
   let planets = document.querySelectorAll(".planets");
   let count = 1;
   planets.forEach((planet) => {
