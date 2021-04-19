@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+}
+
+section {
+  text-align: center;
+  margin: 10%;
+}
+
+.rotate {
+  transform-origin: 400px;
+  animation-name: rotatePlanet;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rotatePlanet {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
